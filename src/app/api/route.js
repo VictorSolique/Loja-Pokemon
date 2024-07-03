@@ -1,22 +1,26 @@
 import { NextResponse } from "next/server";
 
-export const listaDeLivros = [
+export const listaDePokemons = [
     {
         id: 1,
-        titulo: "O Senhor dos Anéis",
-        autor: "J.R.R. Tolkien",
-        anoPublicacao: 1954,
-        genero: "Fantasia"
+        image: "https://img.pokemondb.net/artwork/avif/bulbasaur.avif",
+        name: "Bulbasaur",
+        type: "Grass Poison",
+        species: "Seed Pokémon",
+        height: 0.7,
+        weight: 6.9
     },
     {
         id: 2,
-        titulo: "1984",
-        autor: "George Orwell",
-        anoPublicacao: 1949,
-        genero: "Distopia"
-    }
+        image: "https://img.pokemondb.net/artwork/avif/ivysaur.avif",
+        name: "Ivysaur",
+        type: "Grass Poison",
+        species: "Seed Pokémon",
+        height: 1.0,
+        weight: 13.0
+    },
 ];
 
 export async function GET(){
-    return NextResponse.json(listaDeLivros)
+    return NextResponse.json(listaDePokemons)
 }
