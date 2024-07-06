@@ -1,12 +1,13 @@
 'use client'
 import { useEffect, useState } from "react"
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./main.module.css";
 import Carregando from "./Carregando";
 import ErrorGetData from "./ErrorGetData";
 
 export default function Main() {
-    const [listProducts, setListProducts] = useState([]);
+    const [listPokemons, setlistPokemons] = useState([]);
     const [listComplete, setListComplete] = useState([]);
     const [search, setSearch] = useState("");
     const [errorFetch, setErrorFetch] = useState(false);
@@ -16,7 +17,7 @@ export default function Main() {
             try {
             const response = await fetch("http://localhost:3000/api");
             const data = await response.json();
-            setListProducts(data);
+            setlistPokemons(data);
             setListComplete(data);
             } catch {
                 setErrorFetch(true);
@@ -39,19 +40,19 @@ export default function Main() {
     return (
         <>
         <main className={styles.main}>            
-            {listProducts.map((products) =>
-                <div className={styles.card} key={products.id}>
+            {listPokemons.map((item) =>
+                <div className={styles.card} key={item.id}>
                     <p className={styles.favorite}>
-                        <a href={"/product/" + products.id}><span className="material-symbols-outlined">favorite</span></a>
+                        <Link href={"/pokemon/" + item.id}><span className="material-symbols-outlined">favorite</span></Link>
                         </p>
                     <Image className={styles.img} width={150} height={150}
-                    src={products.image} alt={products.name} priority />                    
-                    <h4 style={{fontSize: 20, paddingBottom: 5, marginBottom: 0}}>{products.name}</h4>
-                    <p style={{fontSize: 15, padding: 0, margin: 0}}> {products.species}</p>
+                    src={item.image} alt={item.name} priority />                    
+                    <h4 style={{fontSize: 20, paddingBottom: 5, marginBottom: 0}}>{item.name}</h4>
+                    <p style={{fontSize: 15, padding: 0, margin: 0}}> {item.species}</p>
                     
-                    <p>{products.type}</p>               
-                    <p>{products.height}</p>               
-                    <p>{products.weight}</p>                          
+                    <p>{item.type}</p>               
+                    <p>{item.height}</p>               
+                    <p>{item.weight}</p>                          
                     
                 </div>
             )}
