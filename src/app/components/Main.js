@@ -39,23 +39,24 @@ export default function Main() {
 
     return (
         <>
-        <main className={styles.main}>            
+        <main className={styles.main}>   
             {listPokemons.map((item) =>
                 <div className={styles.card} key={item.id}>
-                    <p className={styles.favorite}>
-                        <Link href={"/pokemon/" + item.id}><span className="material-symbols-outlined">favorite</span></Link>
-                        </p>
-                    <Image className={styles.img} width={150} height={150}
-                    src={item.image} alt={item.name} priority />                    
-                    <h4 style={{fontSize: 20, paddingBottom: 5, marginBottom: 0}}>{item.name}</h4>
-                    <p style={{fontSize: 15, padding: 0, margin: 0}}> {item.species}</p>
-                    
-                    <p>{item.type}</p>               
-                    <p>{item.height}</p>               
-                    <p>{item.weight}</p>                          
+                    <Image className={styles.img} width={89} height={91}
+                    src={item.image} alt={item.name} priority />  
+                    <p style={{color: "#808080"}}># {item.id}</p>                  
+                    <Link href={"/pokemon/" + item.id} className={styles.link}>
+                        <h4 style={{fontSize: 18}}>{item.name}</h4>
+                    </Link>                        
+                    <p> {item.type}</p>
+                    <div style={{display: "flex", justifyContent: "space-around", alignContent: "center"}}>
+                        <p style={{margin: 0, padding: 0, fontSize: 15, color: "#666"}}>Altura: <br/> {item.height} m</p>   
+                        <p style={{margin: 0, padding: 0, fontSize: 15, color: "#666"}}>Peso: <br/> {item.weight} Kg</p>
+                    </div>                                        
+                    <p style={{fontSize: 15, color: "#aaa"}}>{item.species}</p>
                     
                 </div>
-            )}
+            )}       
         </main>
         </>
     )

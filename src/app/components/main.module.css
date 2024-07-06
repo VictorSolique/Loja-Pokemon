@@ -1,28 +1,42 @@
 .main {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-inline: 5%;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
     flex-wrap: wrap;
-    gap: 50px;   
+    gap: 5px 50px;
+    border-radius: 10px;
 }
 
-.main h4 { min-height: 60px; }
 
 .card {    
-    width: 300px;
+    width: 150px;
     text-align: center;
-    padding-inline: 10px;
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
-    border-radius: 5%;
-    background-image: linear-gradient(to bottom, #fff 40%, #DDDEEE 90%);
+    margin: 0px;
+
 }
 
-.card abbr { text-decoration: none !important; }
-.card abbr p span { color: red; }
+.card p, .card h4{
+    margin: 2px;
+    padding: 2px;
+}
+
+.link {
+    text-decoration: none;
+    color: #43A2E4;
+}
+.link :hover {
+    transition: 0.2s;
+    color: #FF3900;
+    text-decoration: underline;
+}
+
+
 .img { margin: auto; }
 
 /* Estilos do menu suspenso de Descrição */
@@ -80,24 +94,6 @@
     background-color: #fff;
 }
 
-@media (min-width: 1190px) {
-    .posicao {
-        display: flex;
-        padding-inline: 0px;
-        justify-content: space-between;
-        align-items: end;
-    }
-    .menu2, .ordenar {
-        margin-inline: 30px;
-    }
-}
-
-@media (max-width: 1189px) {
-    .menu2 {
-        margin: 20px;
-        margin-top: 10px;
-    }
-}
   
 
 .menu2 {

@@ -2,7 +2,7 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 
 export const metadata = {
-  title: "Pokédex de Kanto -- carregando",
+  title: "Pokédex de FireRed & LeafGreen -- carregando",
   description: "E-commerce",
 };
 
@@ -12,14 +12,13 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Pokédex de Kanto - 151 pokemons </title>
+        <title>Pokédex de FireRed & LeafGreen - 151 pokemons </title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"/>
       </head>
-      <body style={{padding: 0, margin: 0, fontFamily: "Playfair Display, sans-serif", backgroundColor: "#DDDEEE"}}>
+      <body style={{padding: 0, margin: 0, fontFamily: "sans-serif", backgroundColor: "#DEDDEE"}}>
         <Header />
         {children}
         <Footer />
