@@ -46,7 +46,7 @@ export default function Main() {
                     src={item.image} alt={item.name} priority />  
                     <p style={{color: "#808080"}}># {item.id}</p>                  
                     <Link href={"/pokemon/" + item.id} className={styles.link}>
-                        <h4 style={{fontSize: 18}}>{item.name}</h4>
+                        <h4 style={{fontSize: 18, display: "inline"}}>{item.name}</h4>
                     </Link>                        
                     <p> {item.type}</p>
                     <div style={{display: "flex", justifyContent: "space-around", alignContent: "center"}}>
