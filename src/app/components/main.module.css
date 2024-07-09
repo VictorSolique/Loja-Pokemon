@@ -1,8 +1,5 @@
 .main {
-    margin-top: 30px;
-    margin-inline: 5%;
-    padding-top: 20px;
-    background-color: #fff;
+    margin: 0 5% 5% 5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -42,61 +39,46 @@
 /* Estilos do menu suspenso de Descrição */
 
 
-.ordenar { text-align: center; height: 30px; }
-.ordenar div {
-    display: inline;
-    padding-left: 5px;
-}
-.ordenar button {
-    transition: 0.2s;
-    border: 0;
-    background: none;
-    margin-inline: 5px;
-    padding: 0;
-}
-.ordenar button:hover {
-    cursor: pointer;
-    color: #ee0d0d;
-    border-bottom: 1px solid #ee0d0d;
-}
-
-
-/* Botão de pesquisar */
-
-.posicao {
-    position: relative;
-    margin: auto;
-    margin-inline: 10%;
-    border-radius: 12px;
-    padding-block: 20px;
-    margin-top: -50px !important;
-    background-color: #fff;
-}
-
-  
-
-.menu2 {
+.ordenar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-block: 20px;  
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+}
+
+.menu2 input {
+    padding: 10px; 
     background-color: #fff;
-    border: 0;
-    padding: 10px;
-    padding-inline: 10px;
-    padding-left: 15px;
-    border: 2px solid rgb(236, 237, 242);
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #333;
     border-radius: 8px;
     color: #6D6D6D;
-}
-.menu2 input {
-    font-family: sans-serif;
-    background-color: none;
-    border: 0;
-    text-align: center;
-    color: #6D6D6D;
-    width: 250px;
+    width: 350px;
 }
 
-.menu2 input:focus {
-    outline: none;
+@media (max-width: 891px) {
+    .menu2 input {
+        width: auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .menu2 {margin: 0 !important; padding: 0 !important;}
+    .menu2 input {
+        width: 350px;
+    }
+    .ordenar {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ordenar div {
+        margin-block: 20px !important;
+    }
+}
+
+@media (max-width: 443px) {
+    .menu2 input {width: auto;}
+    .ordenar {width: 100%;}    
+    .ordenar h2 {font-size: 15px;}    
 }

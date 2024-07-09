@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function CarroselPokemon() {
     return (
         <div>
-            <h2 className={styles.title}>Pokémons em Destaque</h2>
+            <h2 className={styles.titleSlide}>Pokémons em Destaque</h2>
             <div className={styles.slideContainer}>                
                 <Link href={"/pokemon/25"} className={styles.slideItem}>
                     <Image src="https://cdn.icon-icons.com/icons2/851/PNG/96/pikachu_icon-icons.com_67535.png" alt="pikachu" width={72} height={72} />

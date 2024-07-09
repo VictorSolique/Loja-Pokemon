@@ -5,7 +5,8 @@ const nextConfig = {
             "img.pokemondb.net",
             "cdn.icon-icons.com",
             "fontmeme.com",
-            "pokemonletsgo.pokemon.com"
+            "pokemonletsgo.pokemon.com",
+            "media.wired.com"
         ]
     }
 };

@@ -1,5 +1,5 @@
 .main {
-    margin-top: 20px;
+    margin-block: 20px 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
