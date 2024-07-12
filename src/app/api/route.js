@@ -8,7 +8,8 @@ export const listaDePokemons = [
       type: "Grass Poison",
       species: "Seed Pokémon",
       height: "0.7",
-      weight: 6.9
+      weight: 6.9,
+      evolution: 3
     },
     {
       id: 2,
@@ -17,7 +18,8 @@ export const listaDePokemons = [
       type: "Grass Poison",
       species: "Seed Pokémon",
       height: "1.0",
-      weight: 13.0
+      weight: 13.0,
+      evolution: 3
     },
     {
       id: 3,
@@ -26,7 +28,8 @@ export const listaDePokemons = [
       type: "Grass Poison",
       species: "Seed Pokémon",
       height: "2.0",
-      weight: 100.0
+      weight: 100.0,
+      evolution: 3
     },
     {
       id: 4,
@@ -35,7 +38,8 @@ export const listaDePokemons = [
       type: "Fire",
       species: "Lizard Pokémon",
       height: "0.6",
-      weight: 8.5
+      weight: 8.5,
+      evolution: 3
     },
     {
       id: 5,
@@ -44,7 +48,8 @@ export const listaDePokemons = [
       type: "Fire",
       species: "Flame Pokémon",
       height: "1.1",
-      weight: 19.0
+      weight: 19.0,
+      evolution: 3
     },
     {
       id: 6,
@@ -53,7 +58,8 @@ export const listaDePokemons = [
       type: "Fire Flying",
       species: "Flame Pokémon",
       height: "1.7",
-      weight: 90.5
+      weight: 90.5,
+      evolution: 3
     },
     {
       id: 7,
@@ -62,7 +68,8 @@ export const listaDePokemons = [
       type: "Water",
       species: "Tiny Turtle Pokémon",
       height: "0.5",
-      weight: 9.0
+      weight: 9.0,
+      evolution: 3
     },
     {
       id: 8,
@@ -71,7 +78,8 @@ export const listaDePokemons = [
       type: "Water",
       species: "Turtle Pokémon",
       height: "1.0",
-      weight: 22.5
+      weight: 22.5,
+      evolution: 3
     },
     {
       id: 9,
@@ -80,7 +88,8 @@ export const listaDePokemons = [
       type: "Water",
       species: "Shellfish Pokémon",
       height: "1.6",
-      weight: 85.5
+      weight: 85.5,
+      evolution: 3
     },
     {
       id: 10,
@@ -89,7 +98,8 @@ export const listaDePokemons = [
       type: "Bug",
       species: "Worm Pokémon",
       height: "0.3",
-      weight: 2.9
+      weight: 2.9,
+      evolution: 3
     },
     {
       id: 11,
@@ -98,7 +108,8 @@ export const listaDePokemons = [
       type: "Bug",
       species: "Cocoon Pokémon",
       height: "0.7",
-      weight: 9.9
+      weight: 9.9,
+      evolution: 3
     },
     {
       id: 12,
@@ -107,7 +118,8 @@ export const listaDePokemons = [
       type: "Bug Flying",
       species: "Butterfly Pokémon",
       height: "1.1",
-      weight: 32.0
+      weight: 32.0,
+      evolution: 3
     },
     {
       id: 13,
@@ -116,7 +128,8 @@ export const listaDePokemons = [
       type: "Bug Poison",
       species: "Hairy Pokémon",
       height: "0.3",
-      weight: 3.2
+      weight: 3.2,
+      evolution: 3
     },
     {
       id: 14,
@@ -125,7 +138,8 @@ export const listaDePokemons = [
       type: "Bug Poison",
       species: "Cocoon Pokémon",
       height: "0.6",
-      weight: 10.0
+      weight: 10.0,
+      evolution: 3
     },
     {
       id: 15,
@@ -134,7 +148,8 @@ export const listaDePokemons = [
       type: "Bug Poison",
       species: "Poison Bee Pokémon",
       height: "1.0",
-      weight: 29.5
+      weight: 29.5,
+      evolution: 3
     },
     {
       id: 16,
@@ -143,7 +158,8 @@ export const listaDePokemons = [
       type: "Normal Flying",
       species: "Tiny Bird Pokémon",
       height: "0.3",
-      weight: 1.8
+      weight: 1.8,
+      evolution: 3
     },
     {
       id: 17,
@@ -152,7 +168,8 @@ export const listaDePokemons = [
       type: "Normal Flying",
       species: "Bird Pokémon",
       height: "1.1",
-      weight: 30.0
+      weight: 30.0,
+      evolution: 3
     },
     {
       id: 18,
@@ -161,7 +178,8 @@ export const listaDePokemons = [
       type: "Normal Flying",
       species: "Bird Pokémon",
       height: "1.5",
-      weight: 39.5
+      weight: 39.5,
+      evolution: 3
     },
     {
       id: 19,
@@ -170,7 +188,8 @@ export const listaDePokemons = [
       type: "Normal",
       species: "Mouse Pokémon",
       height: "0.3",
-      weight: 3.8
+      weight: 3.8,
+      evolution: 2
     },
     {
       id: 20,
@@ -179,7 +198,8 @@ export const listaDePokemons = [
       type: "Normal",
       species: "Mouse Pokémon",
       height: "0.7",
-      weight: 18.5
+      weight: 18.5,
+      evolution: 2
     },
     {
       id: 21,
@@ -188,7 +208,8 @@ export const listaDePokemons = [
       type: "Normal Flying",
       species: "Tiny Bird Pokémon",
       height: "0.3",
-      weight: 2.0
+      weight: 2.0,
+      evolution: 2
     },
     {
       id: 22,
@@ -197,7 +218,8 @@ export const listaDePokemons = [
       type: "Normal Flying",
       species: "Beak Pokémon",
       height: "1.2",
-      weight: 38.0
+      weight: 38.0,
+      evolution: 2
     },
     {
       id: 23,
@@ -206,7 +228,8 @@ export const listaDePokemons = [
       type: "Poison",
       species: "Snake Pokémon",
       height: "2.0",
-      weight: 6.9
+      weight: 6.9,
+      evolution: 2
     },
     {
       id: 24,
@@ -215,7 +238,8 @@ export const listaDePokemons = [
       type: "Poison",
       species: "Cobra Pokémon",
       height: "3.5",
-      weight: 65.0
+      weight: 65.0,
+      evolution: 2
     },
     {
       id: 25,
@@ -224,7 +248,8 @@ export const listaDePokemons = [
       type: "Electric",
       species: "Mouse Pokémon",
       height: "0.4",
-      weight: 6.0
+      weight: 6.0,
+      evolution: 2
     },
     {
       id: 26,
@@ -233,7 +258,8 @@ export const listaDePokemons = [
       type: "Electric",
       species: "Mouse Pokémon",
       height: "0.8",
-      weight: 30.0
+      weight: 30.0,
+      evolution: 2
     },
     {
       id: 27,
@@ -242,7 +268,8 @@ export const listaDePokemons = [
       type: "Ground",
       species: "Mouse Pokémon",
       height: "0.6",
-      weight: 12.0
+      weight: 12.0,
+      evolution: 2
     },
     {
       id: 28,
@@ -251,7 +278,8 @@ export const listaDePokemons = [
       type: "Ground",
       species: "Mouse Pokémon",
       height: "1.0",
-      weight: 29.5
+      weight: 29.5,
+      evolution: 2
     },
     {
       id: 29,
@@ -260,7 +288,8 @@ export const listaDePokemons = [
       type: "Poison",
       species: "Poison Pin Pokémon",
       height: "0.4",
-      weight: 7.0
+      weight: 7.0,
+      evolution: 3
     },
     {
       id: 30,
@@ -269,7 +298,8 @@ export const listaDePokemons = [
       type: "Poison",
       species: "Poison Pin Pokémon",
       height: "0.8",
-      weight: 20.0
+      weight: 20.0,
+      evolution: 3
     },
     {
       id: 31,
@@ -278,7 +308,8 @@ export const listaDePokemons = [
       type: "Poison Ground",
       species: "Drill Pokémon",
       height: "1.3",
-      weight: 60.0
+      weight: 60.0,
+      evolution: 3
     },
     {
       id: 32,
@@ -287,7 +318,8 @@ export const listaDePokemons = [
       type: "Poison",
       species: "Poison Pin Pokémon",
       height: "0.5",
-      weight: 9.0
+      weight: 9.0,
+      evolution: 3
     },
     {
       id: 33,
@@ -296,7 +328,8 @@ export const listaDePokemons = [
       type: "Poison",
       species: "Poison Pin Pokémon",
       height: "0.9",
-      weight: 19.5
+      weight: 19.5,
+      evolution: 3
     },
     {
       id: 34,
@@ -305,7 +338,8 @@ export const listaDePokemons = [
       type: "Poison Ground",
       species: "Drill Pokémon",
       height: "1.4",
-      weight: 62.0
+      weight: 62.0,
+      evolution: 3
     },
     {
       id: 35,
@@ -314,7 +348,8 @@ export const listaDePokemons = [
       type: "Fairy",
       species: "Fairy Pokémon",
       height: "0.6",
-      weight: 7.5
+      weight: 7.5,
+      evolution: 2
     },
     {
       id: 36,
@@ -323,7 +358,8 @@ export const listaDePokemons = [
       type: "Fairy",
       species: "Fairy Pokémon",
       height: "1.3",
-      weight: 40.0
+      weight: 40.0,
+      evolution: 2
     },
     {
       id: 37,
@@ -332,7 +368,8 @@ export const listaDePokemons = [
       type: "Fire",
       species: "Fox Pokémon",
       height: "0.6",
-      weight: 9.9
+      weight: 9.9,
+      evolution: 2
     },
     {
       id: 38,
@@ -341,7 +378,8 @@ export const listaDePokemons = [
       type: "Fire",
       species: "Fox Pokémon",
       height: "1.1",
-      weight: 19.9
+      weight: 19.9,
+      evolution: 2
     },
     {
       id: 39,
@@ -350,7 +388,8 @@ export const listaDePokemons = [
       type: "Normal Fairy",
       species: "Balloon Pokémon",
       height: "0.5",
-      weight: 5.5
+      weight: 5.5,
+      evolution: 2
     },
     {
       id: 40,
@@ -359,7 +398,8 @@ export const listaDePokemons = [
       type: "Normal Fairy",
       species: "Balloon Pokémon",
       height: "1.0",
-      weight: 12.0
+      weight: 12.0,
+      evolution: 2
     },
     {
       id: 41,
@@ -368,7 +408,8 @@ export const listaDePokemons = [
       type: "Poison Flying",
       species: "Bat Pokémon",
       height: "0.8",
-      weight: 7.5
+      weight: 7.5,
+      evolution: 3
     },
     {
       id: 42,
@@ -377,7 +418,8 @@ export const listaDePokemons = [
       type: "Poison Flying",
       species: "Bat Pokémon",
       height: "1.6",
-      weight: 55.0
+      weight: 55.0,
+      evolution: 3
     },
     {
       id: 43,
@@ -386,7 +428,8 @@ export const listaDePokemons = [
       type: "Grass Poison",
       species: "Weed Pokémon",
       height: "0.5",
-      weight: 5.4
+      weight: 5.4,
+      evolution: 3
     },
     {
       id: 44,
@@ -395,7 +438,8 @@ export const listaDePokemons = [
       type: "Grass Poison",
       species: "Weed Pokémon",
       height: "0.8",
-      weight: 8.6
+      weight: 8.6,
+      evolution: 3
     },
     {
       id: 45,
@@ -404,7 +448,8 @@ export const listaDePokemons = [
       type: "Grass Poison",
       species: "Flower Pokémon",
       height: "1.2",
-      weight: 18.6
+      weight: 18.6,
+      evolution: 3
     },
     {
       id: 46,
@@ -413,7 +458,8 @@ export const listaDePokemons = [
       type: "Bug Grass",
       species: "Mushroom Pokémon",
       height: "0.3",
-      weight: 5.4
+      weight: 5.4,
+      evolution: 2
     },
     {
         id: 47,
@@ -422,7 +468,8 @@ export const listaDePokemons = [
         type: "Bug Grass",
         species: "Mushroom Pokémon",
         height: "1.0",
-        weight: 29.5
+        weight: 29.5,
+        evolution: 2
     },
     {
         id: 48,
@@ -431,7 +478,8 @@ export const listaDePokemons = [
         type: "Bug Poison",
         species: "Insect Pokémon",
         height: "1.0",
-        weight: 30.0
+        weight: 30.0,
+        evolution: 2
     },
     {
         id: 49,
@@ -440,7 +488,8 @@ export const listaDePokemons = [
         type: "Bug Poison",
         species: "Poison Moth Pokémon",
         height: "1.5",
-        weight: 12.5
+        weight: 12.5,
+        evolution: 2
     },
     {
         id: 50,
@@ -449,7 +498,8 @@ export const listaDePokemons = [
         type: "Ground",
         species: "Mole Pokémon",
         height: "0.2",
-        weight: 0.8
+        weight: 0.8,
+        evolution: 2
     },
     {
         id: 51,
@@ -458,7 +508,8 @@ export const listaDePokemons = [
         type: "Ground",
         species: "Mole Pokémon",
         height: "0.7",
-        weight: 33.3
+        weight: 33.3,
+        evolution: 2
     },
     {
         id: 52,
@@ -467,7 +518,8 @@ export const listaDePokemons = [
         type: "Normal",
         species: "Scratch Cat Pokémon",
         height: "0.4",
-        weight: 4.2
+        weight: 4.2,
+        evolution: 2
     },
     {
         id: 53,
@@ -476,7 +528,8 @@ export const listaDePokemons = [
         type: "Normal",
         species: "Classy Cat Pokémon",
         height: "1.0",
-        weight: 32.0
+        weight: 32.0,
+        evolution: 2
     },
     {
         id: 54,
@@ -485,7 +538,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Duck Pokémon",
         height: "0.8",
-        weight: 19.6
+        weight: 19.6,
+        evolution: 2
     },
     {
         id: 55,
@@ -494,7 +548,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Duck Pokémon",
         height: "1.7",
-        weight: 76.6
+        weight: 76.6,
+        evolution: 2
     },
     {
         id: 56,
@@ -503,7 +558,8 @@ export const listaDePokemons = [
         type: "Fighting",
         species: "Pig Monkey Pokémon",
         height: "0.5",
-        weight: 28.0
+        weight: 28.0,
+        evolution: 2
     },
     {
         id: 57,
@@ -512,7 +568,8 @@ export const listaDePokemons = [
         type: "Fighting",
         species: "Pig Monkey Pokémon",
         height: "1.0",
-        weight: 32.0
+        weight: 32.0,
+        evolution: 2
     },
     {
         id: 58,
@@ -521,7 +578,8 @@ export const listaDePokemons = [
         type: "Fire",
         species: "Puppy Pokémon",
         height: "0.7",
-        weight: 19.0
+        weight: 19.0,
+        evolution: 2
     },
     {
         id: 59,
@@ -530,7 +588,8 @@ export const listaDePokemons = [
         type: "Fire",
         species: "Legendary Pokémon",
         height: "1.9",
-        weight: 155.0
+        weight: 155.0,
+        evolution: 2
     },
     {
         id: 60,
@@ -539,7 +598,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Tadpole Pokémon",
         height: "0.6",
-        weight: 12.4
+        weight: 12.4,
+        evolution: 3
     },
     {
         id: 61,
@@ -548,7 +608,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Tadpole Pokémon",
         height: "1.0",
-        weight: 20.0
+        weight: 20.0,
+        evolution: 3
     },
     {
         id: 62,
@@ -557,7 +618,8 @@ export const listaDePokemons = [
         type: "Water Fighting",
         species: "Tadpole Pokémon",
         height: "1.3",
-        weight: 54.0
+        weight: 54.0,
+        evolution: 3
     },
     {
         id: 63,
@@ -566,7 +628,8 @@ export const listaDePokemons = [
         type: "Psychic",
         species: "Psi Pokémon",
         height: "0.9",
-        weight: 19.5
+        weight: 19.5,
+        evolution: 3
     },
     {
         id: 64,
@@ -575,7 +638,8 @@ export const listaDePokemons = [
         type: "Psychic",
         species: "Psi Pokémon",
         height: "1.3",
-        weight: 56.5
+        weight: 56.5,
+        evolution: 3
     },
     {
         id: 65,
@@ -584,7 +648,8 @@ export const listaDePokemons = [
         type: "Psychic",
         species: "Psi Pokémon",
         height: "1.5",
-        weight: 48.0
+        weight: 48.0,
+        evolution: 3
     },
     {
         id: 66,
@@ -593,7 +658,8 @@ export const listaDePokemons = [
         type: "Fighting",
         species: "Superpower Pokémon",
         height: "0.8",
-        weight: 19.5
+        weight: 19.5,
+        evolution: 3
     },
     {
         id: 67,
@@ -602,7 +668,8 @@ export const listaDePokemons = [
         type: "Fighting",
         species: "Superpower Pokémon",
         height: "1.5",
-        weight: 70.5
+        weight: 70.5,
+        evolution: 3
     },
     {
         id: 68,
@@ -611,7 +678,8 @@ export const listaDePokemons = [
         type: "Fighting",
         species: "Superpower Pokémon",
         height: "1.6",
-        weight: 130.0
+        weight: 130.0,
+        evolution: 3
     },
     {
         id: 69,
@@ -620,7 +688,8 @@ export const listaDePokemons = [
         type: "Grass Poison",
         species: "Flower Pokémon",
         height: "0.7",
-        weight: 4.0
+        weight: 4.0,
+        evolution: 3
     },
     {
         id: 70,
@@ -629,7 +698,8 @@ export const listaDePokemons = [
         type: "Grass Poison",
         species: "Flycatcher Pokémon",
         height: "1.0",
-        weight: 6.4
+        weight: 6.4,
+        evolution: 3
     },
     {
         id: 71,
@@ -638,7 +708,8 @@ export const listaDePokemons = [
         type: "Grass Poison",
         species: "Flycatcher Pokémon",
         height: "1.7",
-        weight: 15.5
+        weight: 15.5,
+        evolution: 3
     },
     {
         id: 72,
@@ -647,7 +718,8 @@ export const listaDePokemons = [
         type: "Water Poison",
         species: "Jellyfish Pokémon",
         height: "0.9",
-        weight: 45.5
+        weight: 45.5,
+        evolution: 2
     },
     {
         id: 73,
@@ -656,7 +728,8 @@ export const listaDePokemons = [
         type: "Water Poison",
         species: "Jellyfish Pokémon",
         height: "1.6",
-        weight: 55.0
+        weight: 55.0,
+        evolution: 2
     },
     {
         id: 74,
@@ -665,7 +738,8 @@ export const listaDePokemons = [
         type: "Rock Ground",
         species: "Rock Pokémon",
         height: "0.4",
-        weight: 20.0
+        weight: 20.0,
+        evolution: 3
     },
     {
         id: 75,
@@ -674,7 +748,8 @@ export const listaDePokemons = [
         type: "Rock Ground",
         species: "Rock Pokémon",
         height: "1.0",
-        weight: 105.0
+        weight: 105.0,
+        evolution: 3
     },
     {
         id: 76,
@@ -683,7 +758,8 @@ export const listaDePokemons = [
         type: "Rock Ground",
         species: "Megaton Pokémon",
         height: "1.4",
-        weight: 300.0
+        weight: 300.0,
+        evolution: 3
     },
     {
         id: 77,
@@ -692,7 +768,8 @@ export const listaDePokemons = [
         type: "Fire",
         species: "Fire Horse Pokémon",
         height: "1.0",
-        weight: 30.0
+        weight: 30.0,
+        evolution: 2
     },
     {
         id: 78,
@@ -701,7 +778,8 @@ export const listaDePokemons = [
         type: "Fire",
         species: "Fire Horse Pokémon",
         height: "1.7",
-        weight: 95.0
+        weight: 95.0,
+        evolution: 2
     },
     {
         id: 79,
@@ -710,7 +788,8 @@ export const listaDePokemons = [
         type: "Water Psychic",
         species: "Dopey Pokémon",
         height: "1.2",
-        weight: 36.0
+        weight: 36.0,
+        evolution: 2
     },
     {
         id: 80,
@@ -719,7 +798,8 @@ export const listaDePokemons = [
         type: "Water Psychic",
         species: "Hermit Crab Pokémon",
         height: "1.6",
-        weight: 78.5
+        weight: 78.5,
+        evolution: 2
     },
     {
         id: 81,
@@ -728,7 +808,8 @@ export const listaDePokemons = [
         type: "Electric Steel",
         species: "Magnet Pokémon",
         height: "0.3",
-        weight: 6.0
+        weight: 6.0,
+        evolution: 2
     },
     {
         id: 82,
@@ -737,7 +818,8 @@ export const listaDePokemons = [
         type: "Electric Steel",
         species: "Magnet Pokémon",
         height: "1.0",
-        weight: 60.0
+        weight: 60.0,
+        evolution: 2
     },
     {
         id: 83,
@@ -746,7 +828,8 @@ export const listaDePokemons = [
         type: "Normal Flying",
         species: "Wild Duck Pokémon",
         height: "0.8",
-        weight: 15.0
+        weight: 15.0,
+        evolution: 1
     },
     {
         id: 84,
@@ -755,7 +838,8 @@ export const listaDePokemons = [
         type: "Normal Flying",
         species: "Twin Bird Pokémon",
         height: "1.4",
-        weight: 39.2
+        weight: 39.2,
+        evolution: 2
     },
     {
         id: 85,
@@ -764,7 +848,8 @@ export const listaDePokemons = [
         type: "Normal Flying",
         species: "Triple Bird Pokémon",
         height: "1.8",
-        weight: 85.2
+        weight: 85.2,
+        evolution: 2
     },
     {
         id: 86,
@@ -773,7 +858,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Sea Lion Pokémon",
         height: "1.1",
-        weight: 90.0
+        weight: 90.0,
+        evolution: 2
     },
     {
         id: 87,
@@ -782,7 +868,8 @@ export const listaDePokemons = [
         type: "Water Ice",
         species: "Sea Lion Pokémon",
         height: "1.7",
-        weight: 120.0
+        weight: 120.0,
+        evolution: 2
     },
     {
         id: 88,
@@ -791,7 +878,8 @@ export const listaDePokemons = [
         type: "Poison",
         species: "Sludge Pokémon",
         height: "0.9",
-        weight: 30.0
+        weight: 30.0,
+        evolution: 2
     },
     {
         id: 89,
@@ -800,7 +888,8 @@ export const listaDePokemons = [
         type: "Poison",
         species: "Sludge Pokémon",
         height: "1.2",
-        weight: 30.0
+        weight: 30.0,
+        evolution: 2
     },
     {
         id: 90,
@@ -809,7 +898,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Bivalve Pokémon",
         height: "0.3",
-        weight: 4.0
+        weight: 4.0,
+        evolution: 2
     },
     {
         id: 91,
@@ -818,7 +908,8 @@ export const listaDePokemons = [
         type: "Water Ice",
         species: "Bivalve Pokémon",
         height: "1.5",
-        weight: 132.5
+        weight: 132.5,
+        evolution: 2
     },
     {
         id: 92,
@@ -827,7 +918,8 @@ export const listaDePokemons = [
         type: "Ghost Poison",
         species: "Gas Pokémon",
         height: "1.3",
-        weight: 0.1
+        weight: 0.1,
+        evolution: 3
     },
     {
         id: 93,
@@ -836,7 +928,8 @@ export const listaDePokemons = [
         type: "Ghost Poison",
         species: "Gas Pokémon",
         height: "1.6",
-        weight: 0.1
+        weight: 0.1,
+        evolution: 3
     },
     {
         id: 94,
@@ -845,7 +938,8 @@ export const listaDePokemons = [
         type: "Ghost Poison",
         species: "Shadow Pokémon",
         height: "1.5",
-        weight: 40.5
+        weight: 40.5,
+        evolution: 3
     },
     {
         id: 95,
@@ -854,7 +948,8 @@ export const listaDePokemons = [
         type: "Rock Ground",
         species: "Snake Pokémon",
         height: "8.8",
-        weight: 210.0
+        weight: 210.0,
+        evolution: 1
     },
     {
         id: 96,
@@ -863,7 +958,8 @@ export const listaDePokemons = [
         type: "Psychic",
         species: "Hypnosis Pokémon",
         height: "1.0",
-        weight: 32.4
+        weight: 32.4,
+        evolution: 2
     },
     {
         id: 97,
@@ -872,7 +968,8 @@ export const listaDePokemons = [
         type: "Psychic",
         species: "Hypnosis Pokémon",
         height: "1.6",
-        weight: 75.6
+        weight: 75.6,
+        evolution: 2
     },
     {
         id: 98,
@@ -881,7 +978,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "River Crab Pokémon",
         height: "0.4",
-        weight: 6.5
+        weight: 6.5,
+        evolution: 2
     },
     {
         id: 99,
@@ -890,7 +988,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Pincer Pokémon",
         height: "1.3",
-        weight: 60.0
+        weight: 60.0,
+        evolution: 2
     },
     {
         id: 100,
@@ -899,7 +998,8 @@ export const listaDePokemons = [
         type: "Electric",
         species: "Ball Pokémon",
         height: "0.5",
-        weight: 10.4
+        weight: 10.4,
+        evolution: 2
     },
     {
         id: 101,
@@ -908,7 +1008,8 @@ export const listaDePokemons = [
         type: "Electric",
         species: "Ball Pokémon",
         height: "1.2",
-        weight: 66.6
+        weight: 66.6,
+        evolution: 2
     },
     {
         id: 102,
@@ -917,7 +1018,8 @@ export const listaDePokemons = [
         type: "Grass Psychic",
         species: "Egg Pokémon",
         height: "0.4",
-        weight: 2.5
+        weight: 2.5,
+        evolution: 2
     },
     {
         id: 103,
@@ -926,7 +1028,8 @@ export const listaDePokemons = [
         type: "Grass Psychic",
         species: "Coconut Pokémon",
         height: "2.0",
-        weight: 120.0
+        weight: 120.0,
+        evolution: 2
     },
     {
         id: 104,
@@ -935,7 +1038,8 @@ export const listaDePokemons = [
         type: "Ground",
         species: "Lonely Pokémon",
         height: "0.4",
-        weight: 6.5
+        weight: 6.5,
+        evolution: 2
     },
     {
         id: 105,
@@ -944,7 +1048,8 @@ export const listaDePokemons = [
         type: "Ground",
         species: "Bone Keeper Pokémon",
         height: "1.0",
-        weight: 45.0
+        weight: 45.0,
+        evolution: 2
     },
     {
         id: 106,
@@ -953,7 +1058,8 @@ export const listaDePokemons = [
         type: "Fighting",
         species: "Kicking Pokémon",
         height: "1.5",
-        weight: 49.8
+        weight: 49.8,
+        evolution: 1
     },
     {
         id: 107,
@@ -962,7 +1068,8 @@ export const listaDePokemons = [
         type: "Fighting",
         species: "Punching Pokémon",
         height: "1.4",
-        weight: 50.2
+        weight: 50.2,
+        evolution: 1
     },
     {
         id: 108,
@@ -971,7 +1078,8 @@ export const listaDePokemons = [
         type: "Normal",
         species: "Licking Pokémon",
         height: "1.2",
-        weight: 65.5
+        weight: 65.5,
+        evolution: 1
     },
     {
         id: 109,
@@ -980,7 +1088,8 @@ export const listaDePokemons = [
         type: "Poison",
         species: "Poison Gas Pokémon",
         height: "0.6",
-        weight: 1.0
+        weight: 1.0,
+        evolution: 2
     },
     {
         id: 110,
@@ -989,7 +1098,8 @@ export const listaDePokemons = [
         type: "Poison",
         species: "Poison Gas Pokémon",
         height: "1.2",
-        weight: 9.5
+        weight: 9.5,
+        evolution: 2
     },
     {
         id: 111,
@@ -998,7 +1108,8 @@ export const listaDePokemons = [
         type: "Ground Rock",
         species: "Spikes Pokémon",
         height: "1.0",
-        weight: 115.0
+        weight: 115.0,
+        evolution: 2
     },
     {
         id: 112,
@@ -1007,7 +1118,8 @@ export const listaDePokemons = [
         type: "Ground Rock",
         species: "Drill Pokémon",
         height: "1.9",
-        weight: 120.0
+        weight: 120.0,
+        evolution: 2
     },
     {
         id: 113,
@@ -1016,7 +1128,8 @@ export const listaDePokemons = [
         type: "Normal",
         species: "Egg Pokémon",
         height: "1.1",
-        weight: 34.6
+        weight: 34.6,
+        evolution: 1
     },
     {
         id: 114,
@@ -1025,7 +1138,8 @@ export const listaDePokemons = [
         type: "Grass",
         species: "Vine Pokémon",
         height: "1.0",
-        weight: 35.0
+        weight: 35.0,
+        evolution: 1
     },
     {
         id: 115,
@@ -1034,7 +1148,8 @@ export const listaDePokemons = [
         type: "Normal",
         species: "Parent Pokémon",
         height: "2.2",
-        weight: 80.0
+        weight: 80.0,
+        evolution: 1
     },
     {
         id: 116,
@@ -1043,7 +1158,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Dragon Pokémon",
         height: "0.4",
-        weight: 8.0
+        weight: 8.0,
+        evolution: 2
     },
     {
         id: 117,
@@ -1052,7 +1168,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Dragon Pokémon",
         height: "1.2",
-        weight: 25.0
+        weight: 25.0,
+        evolution: 2
     },
     {
         id: 118,
@@ -1061,7 +1178,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Goldfish Pokémon",
         height: "0.6",
-        weight: 15.0
+        weight: 15.0,
+        evolution: 2
     },
     {
         id: 119,
@@ -1070,7 +1188,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Goldfish Pokémon",
         height: "1.3",
-        weight: 39.0
+        weight: 39.0,
+        evolution: 2
     },
     {
         id: 120,
@@ -1079,7 +1198,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Star Shape Pokémon",
         height: "0.8",
-        weight: 34.5
+        weight: 34.5,
+        evolution: 2
     },
     {
         id: 121,
@@ -1088,7 +1208,8 @@ export const listaDePokemons = [
         type: "Water Psychic",
         species: "Mysterious Pokémon",
         height: "1.1",
-        weight: 80.0
+        weight: 80.0,
+        evolution: 2
     },
     {
         id: 122,
@@ -1097,7 +1218,8 @@ export const listaDePokemons = [
         type: "Psychic",
         species: "Barrier Pokémon",
         height: "1.3",
-        weight: 54.5
+        weight: 54.5,
+        evolution: 1
     },
     {
         id: 123,
@@ -1106,7 +1228,8 @@ export const listaDePokemons = [
         type: "Bug Flying",
         species: "Mantis Pokémon",
         height: "1.5",
-        weight: 56.0
+        weight: 56.0,
+        evolution: 1
     },
     {
         id: 124,
@@ -1115,7 +1238,8 @@ export const listaDePokemons = [
         type: "Ice Psychic",
         species: "Human Shape Pokémon",
         height: "1.4",
-        weight: 40.6
+        weight: 40.6,
+        evolution: 1
     },
     {
         id: 125,
@@ -1124,7 +1248,8 @@ export const listaDePokemons = [
         type: "Electric",
         species: "Electric Pokémon",
         height: "1.1",
-        weight: 30.0
+        weight: 30.0,
+        evolution: 1
     },
     {
         id: 126,
@@ -1133,7 +1258,8 @@ export const listaDePokemons = [
         type: "Fire",
         species: "Spitfire Pokémon",
         height: "1.3",
-        weight: 44.5
+        weight: 44.5,
+        evolution: 1
     },
     {
         id: 127,
@@ -1142,7 +1268,8 @@ export const listaDePokemons = [
         type: "Bug",
         species: "Stag Beetle Pokémon",
         height: "1.5",
-        weight: 55.0
+        weight: 55.0,
+        evolution: 1
     },
     {
         id: 128,
@@ -1151,7 +1278,8 @@ export const listaDePokemons = [
         type: "Normal",
         species: "Wild Bull Pokémon",
         height: "1.4",
-        weight: 88.4
+        weight: 88.4,
+        evolution: 1
     },
     {
         id: 129,
@@ -1160,7 +1288,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Fish Pokémon",
         height: "0.9",
-        weight: 10.0
+        weight: 10.0,
+        evolution: 2
     },
     {
         id: 130,
@@ -1169,7 +1298,8 @@ export const listaDePokemons = [
         type: "Water Flying",
         species: "Atrocious Pokémon",
         height: "6.5",
-        weight: 235.0
+        weight: 235.0,
+        evolution: 2
     },
     {
         id: 131,
@@ -1178,7 +1308,8 @@ export const listaDePokemons = [
         type: "Water Ice",
         species: "Transport Pokémon",
         height: "2.5",
-        weight: 220.0
+        weight: 220.0,
+        evolution: 1
     },
     {
         id: 132,
@@ -1187,7 +1318,8 @@ export const listaDePokemons = [
         type: "Normal",
         species: "Transform Pokémon",
         height: "0.3",
-        weight: 4.0
+        weight: 4.0,
+        evolution: 1
     },
     {
         id: 133,
@@ -1196,7 +1328,8 @@ export const listaDePokemons = [
         type: "Normal",
         species: "Evolution Pokémon",
         height: "0.3",
-        weight: 6.5
+        weight: 6.5,
+        evolution: 4
     },
     {
         id: 134,
@@ -1205,7 +1338,8 @@ export const listaDePokemons = [
         type: "Water",
         species: "Bubble Jet Pokémon",
         height: "1.0",
-        weight: 29.0
+        weight: 29.0,
+        evolution: 2
     },
     {
         id: 135,
@@ -1214,7 +1348,8 @@ export const listaDePokemons = [
         type: "Electric",
         species: "Lightning Pokémon",
         height: "0.8",
-        weight: 24.5
+        weight: 24.5,
+        evolution: 2
     },
     {
         id: 136,
@@ -1223,7 +1358,8 @@ export const listaDePokemons = [
         type: "Fire",
         species: "Flame Pokémon",
         height: "0.9",
-        weight: 25.0
+        weight: 25.0,
+        evolution: 2
     },
     {
         id: 137,
@@ -1232,7 +1368,8 @@ export const listaDePokemons = [
         type: "Normal",
         species: "Virtual Pokémon",
         height: "0.8",
-        weight: 36.5
+        weight: 36.5,
+        evolution: 1
     },
     {
         id: 138,
@@ -1241,7 +1378,8 @@ export const listaDePokemons = [
         type: "Rock Water",
         species: "Spiral Pokémon",
         height: "0.4",
-        weight: 7.5
+        weight: 7.5,
+        evolution: 2
     },
     {
         id: 139,
@@ -1250,7 +1388,8 @@ export const listaDePokemons = [
         type: "Rock Water",
         species: "Spiral Pokémon",
         height: "1.0",
-        weight: 35.0
+        weight: 35.0,
+        evolution: 2
     },
     {
         id: 140,
@@ -1259,7 +1398,8 @@ export const listaDePokemons = [
         type: "Rock Water",
         species: "Shellfish Pokémon",
         height: "0.5",
-        weight: 11.5
+        weight: 11.5,
+        evolution: 2
     },
     {
         id: 141,
@@ -1268,7 +1408,8 @@ export const listaDePokemons = [
         type: "Rock Water",
         species: "Shellfish Pokémon",
         height: "1.3",
-        weight: 40.5
+        weight: 40.5,
+        evolution: 2
     },
     {
         id: 142,
@@ -1277,7 +1418,8 @@ export const listaDePokemons = [
         type: "Rock Flying",
         species: "Fossil Pokémon",
         height: "1.8",
-        weight: 59.0
+        weight: 59.0,
+        evolution: 1
     },
     {
         id: 143,
@@ -1286,7 +1428,8 @@ export const listaDePokemons = [
         type: "Normal",
         species: "Sleeping Pokémon",
         height: "2.1",
-        weight: 460.0
+        weight: 460.0,
+        evolution: 1
     },
     {
         id: 144,
@@ -1295,7 +1438,8 @@ export const listaDePokemons = [
         type: "Ice Flying",
         species: "Freeze Pokémon",
         height: "1.7",
-        weight: 55.4
+        weight: 55.4,
+        evolution: 1
     },
     {
         id: 145,
@@ -1304,7 +1448,8 @@ export const listaDePokemons = [
         type: "Electric Flying",
         species: "Electric Pokémon",
         height: "1.6",
-        weight: 52.6
+        weight: 52.6,
+        evolution: 1
     },
     {
         id: 146,
@@ -1313,7 +1458,8 @@ export const listaDePokemons = [
         type: "Fire Flying",
         species: "Flame Pokémon",
         height: "2.0",
-        weight: 60.0
+        weight: 60.0,
+        evolution: 1
     },
     {
         id: 147,
@@ -1322,7 +1468,8 @@ export const listaDePokemons = [
         type: "Dragon",
         species: "Dragon Pokémon",
         height: "1.8",
-        weight: 3.3
+        weight: 3.3,
+        evolution: 3
     },
     {
         id: 148,
@@ -1331,7 +1478,8 @@ export const listaDePokemons = [
         type: "Dragon",
         species: "Dragon Pokémon",
         height: "4.0",
-        weight: 16.5
+        weight: 16.5,
+        evolution: 3
     },
     {
         id: 149,
@@ -1340,7 +1488,8 @@ export const listaDePokemons = [
         type: "Dragon Flying",
         species: "Dragon Pokémon",
         height: "2.2",
-        weight: 210.0
+        weight: 210.0,
+        evolution: 3
     },
     {
         id: 150,
@@ -1349,7 +1498,8 @@ export const listaDePokemons = [
         type: "Psychic",
         species: "Genetic Pokémon",
         height: "2.0",
-        weight: 122.0
+        weight: 122.0,
+        evolution: 1
     },
     {
         id: 151,
@@ -1358,7 +1508,8 @@ export const listaDePokemons = [
         type: "Psychic",
         species: "New Species Pokémon",
         height: "0.4",
-        weight: 4.0
+        weight: 4.0,
+        evolution: 1
     } 
 ];
 

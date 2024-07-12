@@ -70,7 +70,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={styles.copyright}>
-                    <p>&copy; 2019 Pokémon FireRed and LifeGreen. Todos os direitos reservados.</p>
+                    <p>&copy; 2019 Pokédex FireRed and LeafGreen. Todos os direitos reservados.</p>
                 </div>
             </footer>
         </>

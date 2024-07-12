@@ -78,6 +78,8 @@ export default function Main() {
                         <p style={{margin: 0, padding: 0, fontSize: 15, color: "#666"}}>Peso: <br/> {item.weight} Kg</p>
                     </div>                                        
                     <p style={{fontSize: 15, color: "#aaa"}}>{item.species}</p>
+                    <p>{typeof item.evolution} {item.evolution} dad</p>
+
                     
                 </div>
             )}       

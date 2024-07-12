@@ -1,5 +1,6 @@
 import styles from "./header.module.css"
 import Image from "next/image"
+import Link from "next/link"
 import CarroselPokemon from "./CarroselPokemon"
 
 export default function Header() {
@@ -18,8 +19,8 @@ export default function Header() {
             <div className={styles.ilha}>
                 <nav className={styles.nav}>
                     <ul>
-                        <li>Home</li>
-                        <li>Pokedéx</li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/">Pokédex</Link></li>
                         <li>Comunidade</li>
                         <li>Cadastrar</li>
                     </ul>
