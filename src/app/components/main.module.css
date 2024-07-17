@@ -9,7 +9,6 @@
     border-radius: 10px;
 }
 
-
 .card {    
     width: 150px;
     text-align: center;
@@ -48,6 +47,21 @@
     width: 90%;
 }
 
+.menu2 button {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px #333;
+    border: 1.5px solid #333;
+    border-radius: 3px;
+    padding-block: 2px;
+}
+.menu2 button:hover {
+    cursor: pointer;
+    background-color: #dddddd;
+}
+.menu2, .menu2 button {
+    display: flex;
+    align-items: center;
+}
+
 .menu2 input {
     padding: 10px; 
     background-color: #fff;
@@ -57,7 +71,7 @@
     width: 350px;
 }
 
-@media (max-width: 891px) {
+@media (max-width: 930px) {
     .menu2 input {
         width: auto;
     }

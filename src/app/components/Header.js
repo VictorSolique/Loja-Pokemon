@@ -21,8 +21,8 @@ export default function Header() {
                     <ul>
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/">Pokédex</Link></li>
-                        <li>Comunidade</li>
-                        <li>Cadastrar</li>
+                        <li><Link href="#">Comunidade</Link></li>
+                        <li><Link href="#">Cadastrar</Link></li>
                     </ul>
                 </nav>
             </div>

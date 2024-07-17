@@ -9,7 +9,7 @@ export const listaDePokemons = [
       species: "Seed Pokémon",
       height: "0.7",
       weight: 6.9,
-      evolution: 3
+      evolution: [true, false, false]
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ export const listaDePokemons = [
       species: "Seed Pokémon",
       height: "1.0",
       weight: 13.0,
-      evolution: 3
+      evolution: [false, true, false]
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ export const listaDePokemons = [
       species: "Seed Pokémon",
       height: "2.0",
       weight: 100.0,
-      evolution: 3
+      evolution: [false, false, true]
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ export const listaDePokemons = [
       species: "Lizard Pokémon",
       height: "0.6",
       weight: 8.5,
-      evolution: 3
+      evolution: [true, false, false]
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ export const listaDePokemons = [
       species: "Flame Pokémon",
       height: "1.1",
       weight: 19.0,
-      evolution: 3
+      evolution: [false, true, false]
     },
     {
       id: 6,
@@ -59,7 +59,7 @@ export const listaDePokemons = [
       species: "Flame Pokémon",
       height: "1.7",
       weight: 90.5,
-      evolution: 3
+      evolution: [false, false, true]
     },
     {
       id: 7,
@@ -69,7 +69,7 @@ export const listaDePokemons = [
       species: "Tiny Turtle Pokémon",
       height: "0.5",
       weight: 9.0,
-      evolution: 3
+      evolution: [true, false, false]
     },
     {
       id: 8,
@@ -79,7 +79,7 @@ export const listaDePokemons = [
       species: "Turtle Pokémon",
       height: "1.0",
       weight: 22.5,
-      evolution: 3
+      evolution: [false, true, false]
     },
     {
       id: 9,
@@ -89,7 +89,7 @@ export const listaDePokemons = [
       species: "Shellfish Pokémon",
       height: "1.6",
       weight: 85.5,
-      evolution: 3
+      evolution: [false, false, true]
     },
     {
       id: 10,
@@ -99,7 +99,7 @@ export const listaDePokemons = [
       species: "Worm Pokémon",
       height: "0.3",
       weight: 2.9,
-      evolution: 3
+      evolution: [true, false, false]
     },
     {
       id: 11,
@@ -109,7 +109,7 @@ export const listaDePokemons = [
       species: "Cocoon Pokémon",
       height: "0.7",
       weight: 9.9,
-      evolution: 3
+      evolution: [false, true, false]
     },
     {
       id: 12,
@@ -119,7 +119,7 @@ export const listaDePokemons = [
       species: "Butterfly Pokémon",
       height: "1.1",
       weight: 32.0,
-      evolution: 3
+      evolution: [false, false, true]
     },
     {
       id: 13,
@@ -129,7 +129,7 @@ export const listaDePokemons = [
       species: "Hairy Pokémon",
       height: "0.3",
       weight: 3.2,
-      evolution: 3
+      evolution: [true, false, false]
     },
     {
       id: 14,
@@ -139,7 +139,7 @@ export const listaDePokemons = [
       species: "Cocoon Pokémon",
       height: "0.6",
       weight: 10.0,
-      evolution: 3
+      evolution: [false, true, false]
     },
     {
       id: 15,
@@ -149,7 +149,7 @@ export const listaDePokemons = [
       species: "Poison Bee Pokémon",
       height: "1.0",
       weight: 29.5,
-      evolution: 3
+      evolution: [false, false, true]
     },
     {
       id: 16,
@@ -159,7 +159,7 @@ export const listaDePokemons = [
       species: "Tiny Bird Pokémon",
       height: "0.3",
       weight: 1.8,
-      evolution: 3
+      evolution: [true, false, false]
     },
     {
       id: 17,
@@ -169,7 +169,7 @@ export const listaDePokemons = [
       species: "Bird Pokémon",
       height: "1.1",
       weight: 30.0,
-      evolution: 3
+      evolution: [false, true, false]
     },
     {
       id: 18,
@@ -179,7 +179,7 @@ export const listaDePokemons = [
       species: "Bird Pokémon",
       height: "1.5",
       weight: 39.5,
-      evolution: 3
+      evolution: [false, false, true]
     },
     {
       id: 19,
@@ -189,7 +189,7 @@ export const listaDePokemons = [
       species: "Mouse Pokémon",
       height: "0.3",
       weight: 3.8,
-      evolution: 2
+      evolution: [true, false]
     },
     {
       id: 20,
@@ -199,7 +199,7 @@ export const listaDePokemons = [
       species: "Mouse Pokémon",
       height: "0.7",
       weight: 18.5,
-      evolution: 2
+      evolution: [false, true]
     },
     {
       id: 21,
@@ -209,7 +209,7 @@ export const listaDePokemons = [
       species: "Tiny Bird Pokémon",
       height: "0.3",
       weight: 2.0,
-      evolution: 2
+      evolution: [true, false]
     },
     {
       id: 22,
@@ -219,7 +219,7 @@ export const listaDePokemons = [
       species: "Beak Pokémon",
       height: "1.2",
       weight: 38.0,
-      evolution: 2
+      evolution: [false, true]
     },
     {
       id: 23,
@@ -229,7 +229,7 @@ export const listaDePokemons = [
       species: "Snake Pokémon",
       height: "2.0",
       weight: 6.9,
-      evolution: 2
+      evolution: [true, false]
     },
     {
       id: 24,
@@ -239,7 +239,7 @@ export const listaDePokemons = [
       species: "Cobra Pokémon",
       height: "3.5",
       weight: 65.0,
-      evolution: 2
+      evolution: [false, true]
     },
     {
       id: 25,
@@ -249,7 +249,7 @@ export const listaDePokemons = [
       species: "Mouse Pokémon",
       height: "0.4",
       weight: 6.0,
-      evolution: 2
+      evolution: [true, false]
     },
     {
       id: 26,
@@ -259,7 +259,7 @@ export const listaDePokemons = [
       species: "Mouse Pokémon",
       height: "0.8",
       weight: 30.0,
-      evolution: 2
+      evolution: [false, true]
     },
     {
       id: 27,
@@ -269,7 +269,7 @@ export const listaDePokemons = [
       species: "Mouse Pokémon",
       height: "0.6",
       weight: 12.0,
-      evolution: 2
+      evolution: [true, false]
     },
     {
       id: 28,
@@ -279,7 +279,7 @@ export const listaDePokemons = [
       species: "Mouse Pokémon",
       height: "1.0",
       weight: 29.5,
-      evolution: 2
+      evolution: [false, true]
     },
     {
       id: 29,
@@ -289,7 +289,7 @@ export const listaDePokemons = [
       species: "Poison Pin Pokémon",
       height: "0.4",
       weight: 7.0,
-      evolution: 3
+      evolution: [true, false, false]
     },
     {
       id: 30,
@@ -299,7 +299,7 @@ export const listaDePokemons = [
       species: "Poison Pin Pokémon",
       height: "0.8",
       weight: 20.0,
-      evolution: 3
+      evolution: [false, true, false]
     },
     {
       id: 31,
@@ -309,7 +309,7 @@ export const listaDePokemons = [
       species: "Drill Pokémon",
       height: "1.3",
       weight: 60.0,
-      evolution: 3
+      evolution: [false, false, true]
     },
     {
       id: 32,
@@ -319,7 +319,7 @@ export const listaDePokemons = [
       species: "Poison Pin Pokémon",
       height: "0.5",
       weight: 9.0,
-      evolution: 3
+      evolution: [true, false, false]
     },
     {
       id: 33,
@@ -329,7 +329,7 @@ export const listaDePokemons = [
       species: "Poison Pin Pokémon",
       height: "0.9",
       weight: 19.5,
-      evolution: 3
+      evolution: [false, true, false]
     },
     {
       id: 34,
@@ -339,7 +339,7 @@ export const listaDePokemons = [
       species: "Drill Pokémon",
       height: "1.4",
       weight: 62.0,
-      evolution: 3
+      evolution: [false, false, true]
     },
     {
       id: 35,
@@ -349,7 +349,7 @@ export const listaDePokemons = [
       species: "Fairy Pokémon",
       height: "0.6",
       weight: 7.5,
-      evolution: 2
+      evolution: [true, false]
     },
     {
       id: 36,
@@ -359,7 +359,7 @@ export const listaDePokemons = [
       species: "Fairy Pokémon",
       height: "1.3",
       weight: 40.0,
-      evolution: 2
+      evolution: [false, true]
     },
     {
       id: 37,
@@ -369,7 +369,7 @@ export const listaDePokemons = [
       species: "Fox Pokémon",
       height: "0.6",
       weight: 9.9,
-      evolution: 2
+      evolution: [true, false]
     },
     {
       id: 38,
@@ -379,7 +379,7 @@ export const listaDePokemons = [
       species: "Fox Pokémon",
       height: "1.1",
       weight: 19.9,
-      evolution: 2
+      evolution: [false, true]
     },
     {
       id: 39,
@@ -389,7 +389,7 @@ export const listaDePokemons = [
       species: "Balloon Pokémon",
       height: "0.5",
       weight: 5.5,
-      evolution: 2
+      evolution: [true, false]
     },
     {
       id: 40,
@@ -399,7 +399,7 @@ export const listaDePokemons = [
       species: "Balloon Pokémon",
       height: "1.0",
       weight: 12.0,
-      evolution: 2
+      evolution: [false, true]
     },
     {
       id: 41,
@@ -409,7 +409,7 @@ export const listaDePokemons = [
       species: "Bat Pokémon",
       height: "0.8",
       weight: 7.5,
-      evolution: 3
+      evolution: [true, false]
     },
     {
       id: 42,
@@ -419,7 +419,7 @@ export const listaDePokemons = [
       species: "Bat Pokémon",
       height: "1.6",
       weight: 55.0,
-      evolution: 3
+      evolution: [false, true]
     },
     {
       id: 43,
@@ -429,7 +429,7 @@ export const listaDePokemons = [
       species: "Weed Pokémon",
       height: "0.5",
       weight: 5.4,
-      evolution: 3
+      evolution: [true, false, false]
     },
     {
       id: 44,
@@ -439,7 +439,7 @@ export const listaDePokemons = [
       species: "Weed Pokémon",
       height: "0.8",
       weight: 8.6,
-      evolution: 3
+      evolution: [false, true, false]
     },
     {
       id: 45,
@@ -449,7 +449,7 @@ export const listaDePokemons = [
       species: "Flower Pokémon",
       height: "1.2",
       weight: 18.6,
-      evolution: 3
+      evolution: [false, false, true]
     },
     {
       id: 46,
@@ -459,7 +459,7 @@ export const listaDePokemons = [
       species: "Mushroom Pokémon",
       height: "0.3",
       weight: 5.4,
-      evolution: 2
+      evolution: [true, false]
     },
     {
         id: 47,
@@ -469,7 +469,7 @@ export const listaDePokemons = [
         species: "Mushroom Pokémon",
         height: "1.0",
         weight: 29.5,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 48,
@@ -479,7 +479,7 @@ export const listaDePokemons = [
         species: "Insect Pokémon",
         height: "1.0",
         weight: 30.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 49,
@@ -489,7 +489,7 @@ export const listaDePokemons = [
         species: "Poison Moth Pokémon",
         height: "1.5",
         weight: 12.5,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 50,
@@ -499,7 +499,7 @@ export const listaDePokemons = [
         species: "Mole Pokémon",
         height: "0.2",
         weight: 0.8,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 51,
@@ -509,7 +509,7 @@ export const listaDePokemons = [
         species: "Mole Pokémon",
         height: "0.7",
         weight: 33.3,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 52,
@@ -519,7 +519,7 @@ export const listaDePokemons = [
         species: "Scratch Cat Pokémon",
         height: "0.4",
         weight: 4.2,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 53,
@@ -529,7 +529,7 @@ export const listaDePokemons = [
         species: "Classy Cat Pokémon",
         height: "1.0",
         weight: 32.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 54,
@@ -539,7 +539,7 @@ export const listaDePokemons = [
         species: "Duck Pokémon",
         height: "0.8",
         weight: 19.6,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 55,
@@ -549,7 +549,7 @@ export const listaDePokemons = [
         species: "Duck Pokémon",
         height: "1.7",
         weight: 76.6,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 56,
@@ -559,7 +559,7 @@ export const listaDePokemons = [
         species: "Pig Monkey Pokémon",
         height: "0.5",
         weight: 28.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 57,
@@ -569,7 +569,7 @@ export const listaDePokemons = [
         species: "Pig Monkey Pokémon",
         height: "1.0",
         weight: 32.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 58,
@@ -579,7 +579,7 @@ export const listaDePokemons = [
         species: "Puppy Pokémon",
         height: "0.7",
         weight: 19.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 59,
@@ -589,7 +589,7 @@ export const listaDePokemons = [
         species: "Legendary Pokémon",
         height: "1.9",
         weight: 155.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 60,
@@ -599,7 +599,7 @@ export const listaDePokemons = [
         species: "Tadpole Pokémon",
         height: "0.6",
         weight: 12.4,
-        evolution: 3
+        evolution: [true, false, false]
     },
     {
         id: 61,
@@ -609,7 +609,7 @@ export const listaDePokemons = [
         species: "Tadpole Pokémon",
         height: "1.0",
         weight: 20.0,
-        evolution: 3
+        evolution: [false, true, false]
     },
     {
         id: 62,
@@ -619,7 +619,7 @@ export const listaDePokemons = [
         species: "Tadpole Pokémon",
         height: "1.3",
         weight: 54.0,
-        evolution: 3
+        evolution: [false, false, true]
     },
     {
         id: 63,
@@ -629,7 +629,7 @@ export const listaDePokemons = [
         species: "Psi Pokémon",
         height: "0.9",
         weight: 19.5,
-        evolution: 3
+        evolution: [true, false, false]
     },
     {
         id: 64,
@@ -639,7 +639,7 @@ export const listaDePokemons = [
         species: "Psi Pokémon",
         height: "1.3",
         weight: 56.5,
-        evolution: 3
+        evolution: [false, true, false]
     },
     {
         id: 65,
@@ -649,7 +649,7 @@ export const listaDePokemons = [
         species: "Psi Pokémon",
         height: "1.5",
         weight: 48.0,
-        evolution: 3
+        evolution: [false, false, true]
     },
     {
         id: 66,
@@ -659,7 +659,7 @@ export const listaDePokemons = [
         species: "Superpower Pokémon",
         height: "0.8",
         weight: 19.5,
-        evolution: 3
+        evolution: [true, false, false]
     },
     {
         id: 67,
@@ -669,7 +669,7 @@ export const listaDePokemons = [
         species: "Superpower Pokémon",
         height: "1.5",
         weight: 70.5,
-        evolution: 3
+        evolution: [false, true, false]
     },
     {
         id: 68,
@@ -679,7 +679,7 @@ export const listaDePokemons = [
         species: "Superpower Pokémon",
         height: "1.6",
         weight: 130.0,
-        evolution: 3
+        evolution: [false, false, true]
     },
     {
         id: 69,
@@ -689,7 +689,7 @@ export const listaDePokemons = [
         species: "Flower Pokémon",
         height: "0.7",
         weight: 4.0,
-        evolution: 3
+        evolution: [true, false, false]
     },
     {
         id: 70,
@@ -699,7 +699,7 @@ export const listaDePokemons = [
         species: "Flycatcher Pokémon",
         height: "1.0",
         weight: 6.4,
-        evolution: 3
+        evolution: [false, true, false]
     },
     {
         id: 71,
@@ -709,7 +709,7 @@ export const listaDePokemons = [
         species: "Flycatcher Pokémon",
         height: "1.7",
         weight: 15.5,
-        evolution: 3
+        evolution: [false, false, true]
     },
     {
         id: 72,
@@ -719,7 +719,7 @@ export const listaDePokemons = [
         species: "Jellyfish Pokémon",
         height: "0.9",
         weight: 45.5,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 73,
@@ -729,7 +729,7 @@ export const listaDePokemons = [
         species: "Jellyfish Pokémon",
         height: "1.6",
         weight: 55.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 74,
@@ -739,7 +739,7 @@ export const listaDePokemons = [
         species: "Rock Pokémon",
         height: "0.4",
         weight: 20.0,
-        evolution: 3
+        evolution: [true, false, false]
     },
     {
         id: 75,
@@ -749,7 +749,7 @@ export const listaDePokemons = [
         species: "Rock Pokémon",
         height: "1.0",
         weight: 105.0,
-        evolution: 3
+        evolution: [false, true, false]
     },
     {
         id: 76,
@@ -759,7 +759,7 @@ export const listaDePokemons = [
         species: "Megaton Pokémon",
         height: "1.4",
         weight: 300.0,
-        evolution: 3
+        evolution: [false, false, true]
     },
     {
         id: 77,
@@ -769,7 +769,7 @@ export const listaDePokemons = [
         species: "Fire Horse Pokémon",
         height: "1.0",
         weight: 30.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 78,
@@ -779,7 +779,7 @@ export const listaDePokemons = [
         species: "Fire Horse Pokémon",
         height: "1.7",
         weight: 95.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 79,
@@ -789,7 +789,7 @@ export const listaDePokemons = [
         species: "Dopey Pokémon",
         height: "1.2",
         weight: 36.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 80,
@@ -799,7 +799,7 @@ export const listaDePokemons = [
         species: "Hermit Crab Pokémon",
         height: "1.6",
         weight: 78.5,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 81,
@@ -809,7 +809,7 @@ export const listaDePokemons = [
         species: "Magnet Pokémon",
         height: "0.3",
         weight: 6.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 82,
@@ -819,7 +819,7 @@ export const listaDePokemons = [
         species: "Magnet Pokémon",
         height: "1.0",
         weight: 60.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 83,
@@ -829,7 +829,7 @@ export const listaDePokemons = [
         species: "Wild Duck Pokémon",
         height: "0.8",
         weight: 15.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 84,
@@ -839,7 +839,7 @@ export const listaDePokemons = [
         species: "Twin Bird Pokémon",
         height: "1.4",
         weight: 39.2,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 85,
@@ -849,7 +849,7 @@ export const listaDePokemons = [
         species: "Triple Bird Pokémon",
         height: "1.8",
         weight: 85.2,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 86,
@@ -859,7 +859,7 @@ export const listaDePokemons = [
         species: "Sea Lion Pokémon",
         height: "1.1",
         weight: 90.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 87,
@@ -869,7 +869,7 @@ export const listaDePokemons = [
         species: "Sea Lion Pokémon",
         height: "1.7",
         weight: 120.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 88,
@@ -879,7 +879,7 @@ export const listaDePokemons = [
         species: "Sludge Pokémon",
         height: "0.9",
         weight: 30.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 89,
@@ -889,7 +889,7 @@ export const listaDePokemons = [
         species: "Sludge Pokémon",
         height: "1.2",
         weight: 30.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 90,
@@ -899,7 +899,7 @@ export const listaDePokemons = [
         species: "Bivalve Pokémon",
         height: "0.3",
         weight: 4.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 91,
@@ -909,7 +909,7 @@ export const listaDePokemons = [
         species: "Bivalve Pokémon",
         height: "1.5",
         weight: 132.5,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 92,
@@ -919,7 +919,7 @@ export const listaDePokemons = [
         species: "Gas Pokémon",
         height: "1.3",
         weight: 0.1,
-        evolution: 3
+        evolution: [true, false, false]
     },
     {
         id: 93,
@@ -929,7 +929,7 @@ export const listaDePokemons = [
         species: "Gas Pokémon",
         height: "1.6",
         weight: 0.1,
-        evolution: 3
+        evolution: [false, true, false]
     },
     {
         id: 94,
@@ -939,7 +939,7 @@ export const listaDePokemons = [
         species: "Shadow Pokémon",
         height: "1.5",
         weight: 40.5,
-        evolution: 3
+        evolution: [false, false, true]
     },
     {
         id: 95,
@@ -949,7 +949,7 @@ export const listaDePokemons = [
         species: "Snake Pokémon",
         height: "8.8",
         weight: 210.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 96,
@@ -959,7 +959,7 @@ export const listaDePokemons = [
         species: "Hypnosis Pokémon",
         height: "1.0",
         weight: 32.4,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 97,
@@ -969,7 +969,7 @@ export const listaDePokemons = [
         species: "Hypnosis Pokémon",
         height: "1.6",
         weight: 75.6,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 98,
@@ -979,7 +979,7 @@ export const listaDePokemons = [
         species: "River Crab Pokémon",
         height: "0.4",
         weight: 6.5,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 99,
@@ -989,7 +989,7 @@ export const listaDePokemons = [
         species: "Pincer Pokémon",
         height: "1.3",
         weight: 60.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 100,
@@ -999,7 +999,7 @@ export const listaDePokemons = [
         species: "Ball Pokémon",
         height: "0.5",
         weight: 10.4,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 101,
@@ -1009,7 +1009,7 @@ export const listaDePokemons = [
         species: "Ball Pokémon",
         height: "1.2",
         weight: 66.6,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 102,
@@ -1019,7 +1019,7 @@ export const listaDePokemons = [
         species: "Egg Pokémon",
         height: "0.4",
         weight: 2.5,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 103,
@@ -1029,7 +1029,7 @@ export const listaDePokemons = [
         species: "Coconut Pokémon",
         height: "2.0",
         weight: 120.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 104,
@@ -1039,7 +1039,7 @@ export const listaDePokemons = [
         species: "Lonely Pokémon",
         height: "0.4",
         weight: 6.5,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 105,
@@ -1049,7 +1049,7 @@ export const listaDePokemons = [
         species: "Bone Keeper Pokémon",
         height: "1.0",
         weight: 45.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 106,
@@ -1059,7 +1059,7 @@ export const listaDePokemons = [
         species: "Kicking Pokémon",
         height: "1.5",
         weight: 49.8,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 107,
@@ -1069,7 +1069,7 @@ export const listaDePokemons = [
         species: "Punching Pokémon",
         height: "1.4",
         weight: 50.2,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 108,
@@ -1079,7 +1079,7 @@ export const listaDePokemons = [
         species: "Licking Pokémon",
         height: "1.2",
         weight: 65.5,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 109,
@@ -1089,7 +1089,7 @@ export const listaDePokemons = [
         species: "Poison Gas Pokémon",
         height: "0.6",
         weight: 1.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 110,
@@ -1099,7 +1099,7 @@ export const listaDePokemons = [
         species: "Poison Gas Pokémon",
         height: "1.2",
         weight: 9.5,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 111,
@@ -1109,7 +1109,7 @@ export const listaDePokemons = [
         species: "Spikes Pokémon",
         height: "1.0",
         weight: 115.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 112,
@@ -1119,7 +1119,7 @@ export const listaDePokemons = [
         species: "Drill Pokémon",
         height: "1.9",
         weight: 120.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 113,
@@ -1129,7 +1129,7 @@ export const listaDePokemons = [
         species: "Egg Pokémon",
         height: "1.1",
         weight: 34.6,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 114,
@@ -1139,7 +1139,7 @@ export const listaDePokemons = [
         species: "Vine Pokémon",
         height: "1.0",
         weight: 35.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 115,
@@ -1149,7 +1149,7 @@ export const listaDePokemons = [
         species: "Parent Pokémon",
         height: "2.2",
         weight: 80.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 116,
@@ -1159,7 +1159,7 @@ export const listaDePokemons = [
         species: "Dragon Pokémon",
         height: "0.4",
         weight: 8.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 117,
@@ -1169,7 +1169,7 @@ export const listaDePokemons = [
         species: "Dragon Pokémon",
         height: "1.2",
         weight: 25.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 118,
@@ -1179,7 +1179,7 @@ export const listaDePokemons = [
         species: "Goldfish Pokémon",
         height: "0.6",
         weight: 15.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 119,
@@ -1189,7 +1189,7 @@ export const listaDePokemons = [
         species: "Goldfish Pokémon",
         height: "1.3",
         weight: 39.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 120,
@@ -1199,7 +1199,7 @@ export const listaDePokemons = [
         species: "Star Shape Pokémon",
         height: "0.8",
         weight: 34.5,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 121,
@@ -1209,7 +1209,7 @@ export const listaDePokemons = [
         species: "Mysterious Pokémon",
         height: "1.1",
         weight: 80.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 122,
@@ -1219,7 +1219,7 @@ export const listaDePokemons = [
         species: "Barrier Pokémon",
         height: "1.3",
         weight: 54.5,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 123,
@@ -1229,7 +1229,7 @@ export const listaDePokemons = [
         species: "Mantis Pokémon",
         height: "1.5",
         weight: 56.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 124,
@@ -1239,7 +1239,7 @@ export const listaDePokemons = [
         species: "Human Shape Pokémon",
         height: "1.4",
         weight: 40.6,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 125,
@@ -1249,7 +1249,7 @@ export const listaDePokemons = [
         species: "Electric Pokémon",
         height: "1.1",
         weight: 30.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 126,
@@ -1259,7 +1259,7 @@ export const listaDePokemons = [
         species: "Spitfire Pokémon",
         height: "1.3",
         weight: 44.5,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 127,
@@ -1269,7 +1269,7 @@ export const listaDePokemons = [
         species: "Stag Beetle Pokémon",
         height: "1.5",
         weight: 55.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 128,
@@ -1279,7 +1279,7 @@ export const listaDePokemons = [
         species: "Wild Bull Pokémon",
         height: "1.4",
         weight: 88.4,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 129,
@@ -1289,7 +1289,7 @@ export const listaDePokemons = [
         species: "Fish Pokémon",
         height: "0.9",
         weight: 10.0,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 130,
@@ -1299,7 +1299,7 @@ export const listaDePokemons = [
         species: "Atrocious Pokémon",
         height: "6.5",
         weight: 235.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 131,
@@ -1309,7 +1309,7 @@ export const listaDePokemons = [
         species: "Transport Pokémon",
         height: "2.5",
         weight: 220.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 132,
@@ -1319,7 +1319,7 @@ export const listaDePokemons = [
         species: "Transform Pokémon",
         height: "0.3",
         weight: 4.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 133,
@@ -1339,7 +1339,7 @@ export const listaDePokemons = [
         species: "Bubble Jet Pokémon",
         height: "1.0",
         weight: 29.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 135,
@@ -1349,7 +1349,7 @@ export const listaDePokemons = [
         species: "Lightning Pokémon",
         height: "0.8",
         weight: 24.5,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 136,
@@ -1359,7 +1359,7 @@ export const listaDePokemons = [
         species: "Flame Pokémon",
         height: "0.9",
         weight: 25.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 137,
@@ -1369,7 +1369,7 @@ export const listaDePokemons = [
         species: "Virtual Pokémon",
         height: "0.8",
         weight: 36.5,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 138,
@@ -1379,7 +1379,7 @@ export const listaDePokemons = [
         species: "Spiral Pokémon",
         height: "0.4",
         weight: 7.5,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 139,
@@ -1389,7 +1389,7 @@ export const listaDePokemons = [
         species: "Spiral Pokémon",
         height: "1.0",
         weight: 35.0,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 140,
@@ -1399,7 +1399,7 @@ export const listaDePokemons = [
         species: "Shellfish Pokémon",
         height: "0.5",
         weight: 11.5,
-        evolution: 2
+        evolution: [true, false]
     },
     {
         id: 141,
@@ -1409,7 +1409,7 @@ export const listaDePokemons = [
         species: "Shellfish Pokémon",
         height: "1.3",
         weight: 40.5,
-        evolution: 2
+        evolution: [false, true]
     },
     {
         id: 142,
@@ -1419,7 +1419,7 @@ export const listaDePokemons = [
         species: "Fossil Pokémon",
         height: "1.8",
         weight: 59.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 143,
@@ -1429,7 +1429,7 @@ export const listaDePokemons = [
         species: "Sleeping Pokémon",
         height: "2.1",
         weight: 460.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 144,
@@ -1439,7 +1439,7 @@ export const listaDePokemons = [
         species: "Freeze Pokémon",
         height: "1.7",
         weight: 55.4,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 145,
@@ -1449,7 +1449,7 @@ export const listaDePokemons = [
         species: "Electric Pokémon",
         height: "1.6",
         weight: 52.6,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 146,
@@ -1459,7 +1459,7 @@ export const listaDePokemons = [
         species: "Flame Pokémon",
         height: "2.0",
         weight: 60.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 147,
@@ -1469,7 +1469,7 @@ export const listaDePokemons = [
         species: "Dragon Pokémon",
         height: "1.8",
         weight: 3.3,
-        evolution: 3
+        evolution: [true, false, false]
     },
     {
         id: 148,
@@ -1479,7 +1479,7 @@ export const listaDePokemons = [
         species: "Dragon Pokémon",
         height: "4.0",
         weight: 16.5,
-        evolution: 3
+        evolution: [false, true, false]
     },
     {
         id: 149,
@@ -1489,7 +1489,7 @@ export const listaDePokemons = [
         species: "Dragon Pokémon",
         height: "2.2",
         weight: 210.0,
-        evolution: 3
+        evolution: [false, false, true]
     },
     {
         id: 150,
@@ -1499,7 +1499,7 @@ export const listaDePokemons = [
         species: "Genetic Pokémon",
         height: "2.0",
         weight: 122.0,
-        evolution: 1
+        evolution: [true]
     },
     {
         id: 151,
@@ -1509,7 +1509,7 @@ export const listaDePokemons = [
         species: "New Species Pokémon",
         height: "0.4",
         weight: 4.0,
-        evolution: 1
+        evolution: [true]
     } 
 ];
 

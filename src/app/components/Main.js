@@ -11,6 +11,7 @@ export default function Main() {
     const [listComplete, setListComplete] = useState([]);
     const [search, setSearch] = useState("");
     const [errorFetch, setErrorFetch] = useState(false);
+    const [order, setOrder] = useState(false);
 
     useEffect( () => {
         const getPokemon = async () => {
@@ -26,21 +27,36 @@ export default function Main() {
         getPokemon();
     }, [])
 
-        useEffect(() => {
-            searchText(search);
-        }, [search]);
+    useEffect(() => {
+        searchText(search);
+    }, [search]);
 
-        const searchText = (text) => {
-            setSearch(text);
+    const searchText = (text) => {
+        setSearch(text);
 
-            if ( text.trim() == "" ) {
-                setlistPokemons(listComplete);
-                return
-            }
-            const newList = listPokemons.filter((items) => 
-                items.name.toUpperCase().trim().includes(search.toUpperCase().trim()) )
-            setlistPokemons(newList);
+        if ( text.trim() == "" ) {
+            setlistPokemons(listComplete);
+            return
         }
+        const newList = listPokemons.filter((items) => 
+            items.name.toUpperCase().trim().includes(search.toUpperCase().trim()) )
+        setlistPokemons(newList);
+    }
+
+    const orderMenorMaior = () => {
+        const seta = document.querySelector('span');
+        if(order) {
+            const newList = [...listPokemons].sort((a,b) => a.id - b.id);
+            setlistPokemons(newList);
+            setOrder(false);
+            seta.innerHTML = "arrow_drop_down";
+        } else {
+            const newList = [...listPokemons].sort((a,b) => b.id - a.id);
+            setlistPokemons(newList);
+            setOrder(true);
+            seta.innerHTML = "arrow_drop_up";
+        }    
+    }
 
     if(errorFetch == true) {
         return <ErrorGetData />
@@ -60,6 +76,9 @@ export default function Main() {
                 <h2 style={{boxShadow: "inset 0 0 0 2px #333, inset 0 0 0 4px #fff, inset 0 0 0 6px #333", display: "inline", padding: "15px", borderRadius: "5px"}}>Pokédex FireRed and LeafGreen</h2>
             </div>
             <div className={styles.menu2}>
+            <button onClick={orderMenorMaior}>#
+                <span className="material-symbols-outlined" style={{color: "#333"}}>arrow_drop_down</span>
+            </button>
                 <input type="text" value={search} placeholder="Nome do pokémon" onChange={(e) => searchText(e.target.value)} />
             </div> 
         </div>
@@ -78,7 +97,6 @@ export default function Main() {
                         <p style={{margin: 0, padding: 0, fontSize: 15, color: "#666"}}>Peso: <br/> {item.weight} Kg</p>
                     </div>                                        
                     <p style={{fontSize: 15, color: "#aaa"}}>{item.species}</p>
-                    <p>{typeof item.evolution} {item.evolution} dad</p>
 
                     
                 </div>
